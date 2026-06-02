@@ -149,7 +149,7 @@ Runs stratified K-Fold cross-validation on the selected model to evaluate model 
 | File | Description |
 |---|---|
 | `GUI.py` | Graphical interface and user interaction logic |
-| `Trainer1.py` | Data preprocessing, encoding, scaling, model training, and evaluation |
+| `Training.py` | Data preprocessing, encoding, scaling, model training, and evaluation |
 | `UNSW_NB15_training-set.xlsx` | Training dataset |
 | `UNSW_NB15_testing-set.xlsx` | Testing dataset |
 | `README.md` | Project documentation |
@@ -210,7 +210,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib openpyxl
 
 ```text
 GUI.py
-Trainer1.py
+Training.py
 UNSW_NB15_training-set.xlsx
 UNSW_NB15_testing-set.xlsx
 ```
